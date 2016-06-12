@@ -30,6 +30,9 @@ GLUON_SITE_PACKAGES := \
 	
 DEFAULT_GLUON_RELEASE := v1.2.X-exp-$(shell date '+%Y%m%d')
 
+# Allow overriding the release number from the command line
+GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
+
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
 
