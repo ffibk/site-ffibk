@@ -27,6 +27,8 @@ GLUON_SITE_PACKAGES := \
 	iwinfo \
 	iptables \
 	haveged
+	
+DEFAULT_GLUON_RELEASE := v1.2.X-exp-$(shell date '+%Y%m%d')
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
