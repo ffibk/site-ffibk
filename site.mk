@@ -22,6 +22,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-respondd \
 	gluon-setup-mode \
 	gluon-status-page \
+	gluon-wan-dnsmasq \
 	iwinfo \
 	iptables \
 	haveged
