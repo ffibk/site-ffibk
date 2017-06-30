@@ -1,6 +1,7 @@
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-15 \
 	gluon-autoupdater \
+	gluon-client-bridge \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
@@ -8,8 +9,9 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
 	gluon-ebtables-filter-multicast \
-	gluon-ebtables-source-filter \
 	gluon-ebtables-filter-ra-dhcp \
+	gluon-ebtables-segment-mld \
+	gluon-ebtables-source-filter \
 	gluon-web-admin \
 	gluon-web-autoupdater \
 	gluon-web-network \
